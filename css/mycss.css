@@ -172,6 +172,96 @@ footer::before {
   background-color: #F6CD11;
 }
 
+.main-uplaod {
+  background-color: #E1B701;
+  border-radius: 20px;
+  color: #0A0000;
+}
+.main-uplaod p {
+  font-size: 10px;
+  line-height: 10px;
+  font-weight: 600;
+  text-align: justify;
+}
+
+.custom-file-input:lang(en) ~ .myUpload::after {
+  font-family: "Font Awesome 5 Free";
+  content: "";
+  display: inline-block;
+  padding-right: 3px;
+  vertical-align: middle;
+  font-weight: 900;
+  font-size: 60px;
+}
+
+.myUpload::after {
+  position: absolute;
+  top: 37%;
+  right: 47%;
+  bottom: 0;
+  z-index: 3;
+  display: block;
+  height: 300px;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  color: white;
+  content: "Browse";
+  background-color: inherit;
+  border-left: none;
+  border-radius: 0 0.25rem 0.25rem 0;
+}
+
+.myUpload {
+  height: 260px;
+  line-height: 3.5;
+  font-weight: 700;
+  background-color: #0A0A0A;
+  border: 1px solid #F6CD11;
+}
+.myUpload span {
+  position: absolute;
+  top: 60%;
+  right: 46%;
+  z-index: 5;
+}
+
+.main-uplad2 {
+  border-radius: 35px;
+}
+
+.divUpload {
+  background-color: #0A0A0A;
+}
+
+.media {
+  background-color: #0A0A0A;
+  color: #B7B7B7;
+  border-radius: 20px;
+  padding: 20px;
+}
+.media img {
+  width: 100px;
+  height: 100px;
+}
+.media p {
+  text-align: left;
+  font-weight: 600;
+}
+
+.iconUser {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  position: absolute;
+  top: -29px;
+  left: 120px;
+  border: 1px solid #0A0A0A;
+}
+.iconUser img {
+  width: 120px;
+  height: 120px;
+}
+
 @media (max-width: 575.98px) {
   #navbarSupportedContent .myLogo {
     position: absolute;
