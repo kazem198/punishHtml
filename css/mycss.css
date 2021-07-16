@@ -262,7 +262,62 @@ footer::before {
   height: 120px;
 }
 
+.dreamTitle {
+  color: #E1B701;
+  font-size: 1.45rem;
+}
+
+.rouls {
+  border: 2px solid #F6CD11;
+}
+.rouls p, .rouls span {
+  color: #E1B701;
+  text-align: center;
+}
+.rouls p {
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+.rouls span {
+  font-size: 0.65rem;
+  font-weight: 500;
+}
+
+#rouls::after {
+  content: "قوانین شرکت در مسابقه";
+  padding: 10px;
+  color: #F6CD11;
+  background-color: #0A0A0A;
+  position: absolute;
+  left: 20%;
+  width: 170px;
+  text-align: center;
+}
+
+.actors {
+  background-color: #F6CD11;
+}
+.actors img {
+  width: 100%;
+  height: 250px;
+  border-radius: 20px;
+}
+
+.running {
+  border: 2px solid #F7BE00;
+}
+.running h5, .running p {
+  color: #E1B701;
+}
+.running p {
+  font-size: 1rem;
+}
+
 @media (max-width: 575.98px) {
+  body {
+    font-size: 12px;
+  }
+
   #navbarSupportedContent .myLogo {
     position: absolute;
     left: 113px;
