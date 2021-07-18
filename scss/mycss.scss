@@ -279,7 +279,9 @@ footer::before{
 	.main-uplad2{
 		border-radius: 35px;
 	}
-.divUpload{background-color: $background;}
+.divUpload{background-color: $background;
+	box-shadow: 10px 10px 15px rgb(36, 36, 36);
+}
 
 
 
@@ -414,10 +416,10 @@ footer::before{
 	border: 1px solid $yellow-light;
 		border-radius: 5px;
 	
-	h3{
+	h2{
 				text-align: center;
 				color: $yellow-light;
-				font-size: 1rem;
+				
 			}
 			a,p{
 				text-align: center;
@@ -440,5 +442,12 @@ footer::before{
 		left: 113px;
 		top: -104px;
 		
-	    } }
+	    }
+	
+	    .search-body-inner{
+		    h2{
+font-size: 1rem;
+		    }
+	    }
+	}
     

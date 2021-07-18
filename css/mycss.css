@@ -231,6 +231,7 @@ footer::before {
 
 .divUpload {
   background-color: #0A0A0A;
+  box-shadow: 10px 10px 15px #242424;
 }
 
 .media {
@@ -353,10 +354,9 @@ footer::before {
   border: 1px solid #F6CD11;
   border-radius: 5px;
 }
-.search-body-inner h3 {
+.search-body-inner h2 {
   text-align: center;
   color: #F6CD11;
-  font-size: 1rem;
 }
 .search-body-inner a, .search-body-inner p {
   text-align: center;
@@ -375,5 +375,9 @@ footer::before {
     position: absolute;
     left: 113px;
     top: -104px;
+  }
+
+  .search-body-inner h2 {
+    font-size: 1rem;
   }
 }
