@@ -356,6 +356,7 @@ footer::before {
 .search-body-inner h3 {
   text-align: center;
   color: #F6CD11;
+  font-size: 1rem;
 }
 .search-body-inner a, .search-body-inner p {
   text-align: center;
